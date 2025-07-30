@@ -1,2 +1,26 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.unit-container{
+  max-width: unset !important;
+  margin-right: unset !important;
+  margin-left: unset !important;
+}
+
+.course-wrapper{
+  max-width: unset !important;
+}
+
+.donut-segment.complete-stroke{
+  stroke: $primary;
+}
+
